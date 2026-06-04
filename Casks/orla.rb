@@ -4,23 +4,23 @@ cask "orla" do
 
   on_macos do
     on_intel do
+      sha256 "e2dbdc05dc626d58a8b3e8c4d44235f5525557015541870650049a6efa95e624"
       url "https://github.com/harvard-cns/orla/releases/download/v#{version}/orla-darwin-amd64.tar.gz"
-      sha256 "0aeb6f3cd449b3f64b06ce5e3f5cefefa09af35dff17e5f4025685be40e5d5a4"
     end
     on_arm do
+      sha256 "470af319a1f80eda9d775baa9ff118b061d2a59ac746c800c4a4ccba3dc53b43"
       url "https://github.com/harvard-cns/orla/releases/download/v#{version}/orla-darwin-arm64.tar.gz"
-      sha256 "ec6aeb4ffa62d2272c1c43839b9bac497efb6da5d4b788141d0e804b12057015"
     end
   end
 
   on_linux do
     on_intel do
+      sha256 "210d7f177a9393b9e2a48b21c8d5f9d9e0c5dc168c854aee4192fec2ffd2f877"
       url "https://github.com/harvard-cns/orla/releases/download/v#{version}/orla-linux-amd64.tar.gz"
-      sha256 "74f95212a528c534ee5d6c47c3d806ff2966026f68e3f9dd642b4eb76f6e196c"
     end
     on_arm do
+      sha256 "717ec7af19ac8dbc4362fb2136194982cbe8ad1c50ed41b6ae65d8806e2fe759"
       url "https://github.com/harvard-cns/orla/releases/download/v#{version}/orla-linux-arm64.tar.gz"
-      sha256 "218c428741c56a5fd16dfc0755d979e80431493906b8ee8d963cb5b1b4bf6aeb"
     end
   end
 
